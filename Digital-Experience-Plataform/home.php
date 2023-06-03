@@ -34,8 +34,6 @@
     </style>
 </head>
 <body>
-    <h1>Se inscreva no canal ;)</h1>
-    <h2>Prof. Gustavo Neitzke</h2>
     <div class="box">
         <a href="login.php">Login</a>
         <a href="formulario.php">Cadastre-se</a>
