@@ -1,33 +1,45 @@
+:root {
+    --cor-primaria: #F2E3DB;
+    --cor-secundaria: #41644A;
+    --cor-terciaria: #263A29;
+    --cor-quartenario: #E86A33;
+    --cor-hover: #272727;
+}
+
+body {
+    background-color: var(--cor-primaria);
+}
+
 /* Configuraçoes do topo*/
 .bg-topo {
-    background-color: #68627a;
+    background-color: var(--cor-terciaria);
 }
 
 .btn-orcamento {
-    border: 2px solid #fff;
-    background: none;
+    border: 2px solid var(--cor-primaria);
+    background-color: var(--cor-quartenario);
     position: relative;
-    color: #fff;
+    color: var(--cor-primaria);
     z-index: 1;
     border-radius: 30px;
     height: 100%;
 }
 
 .btn-orcamento:hover {
-    color: #68627a;
-    background: #fff;
-    border-color: #fff;
+    color: var(--cor-hover);
+    background: var(--cor-primaria);
+    border-color: var(--cor-hover);
     transition: all .50s ease-in-out;
     -moz-transition: all .50s ease-in-out;
     -webkit-transition: all .50s ease-in-out;
 }
 /* Seção de Serviços */
 .bg-servicos {
-    background: linear-gradient(131.26deg, #312b45 30%, #ff3859 100%);
+    background: linear-gradient(131.26deg, var(--cor-secundaria) 30%, var(--cor-quartenario) 100%);
 }
 /*Seção de Parceiros*/
 .bg-parceiros {
-    background-color: #f2f0f7;
+    background-color: var(--cor-primaria);
 }
 
 .padding-parceiros {
@@ -35,27 +47,28 @@
 }
 
 .sombra:hover {
-    box-shadow: 0 0 20px 0 rgba(0,0,0, 0.3);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.302);
 }
 
 /* Seção Paralax*/
 .bg-paralax {
-    background: url('../img/bg.jpg') fixed;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/bg2.jpg') fixed;
     position: relative;
+    /* filter: brightness(0.50) opacity(0.75); */
 }
 .fatos {
     text-align: center;
-    color: #fff;
+    color: var(--cor-primaria);
 }
 
 .fatos .icon i{
     font-size: 50px;
-    color: #fff;
+    color: var(--cor-primaria);
 }
 
 .fatos h3{
     font-size: 35px;
-    color: #fff;
+    color: var(--cor-primaria);
     margin-bottom: 5px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -64,7 +77,7 @@
 .fatos h4 {
     font-size: 20px;
     font-weight: 400;
-    color: #fff;
+    color: var(--cor-primaria);
     letter-spacing: 1px;;
 }
 
@@ -75,7 +88,7 @@
     margin: 0 auto;
     margin-bottom: 5px;
     text-align: center;
-    background-color: #fff;
+    background-color: var(--cor-primaria);
     border: 1px solid #f1f1f1;
 }
 
@@ -93,7 +106,7 @@
     display: block;
     font-size: 48px;
     font-weight: 400;
-    color: #4c465f;
+    color: var(--cor-secundaria);
     margin-bottom: 20px;
 }
 
@@ -111,18 +124,18 @@
 }
 
 .btn-preco {
-    border: 1px solid #ff3859;
-    background-color: #ff3859;
+    border: 1px solid var(--cor-quartenario);
+    background-color: var(--cor-quartenario);
     position: relative;
-    color: #fff;
+    color: var(--cor-primaria);
     z-index: 1;
     border-radius: 30px;
 }
 
 .btn-preco:hover {
-    color: #fff;
-    background-color: #4c465f;
-    border-color: #4c465f;
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
     transition: all .50s ease-in-out;
     -moz-transition: all .50s ease-in-out;
     -webkit-transition: all .50s ease-in-out;
@@ -130,7 +143,7 @@
 
 /* Seção Rodape */
 .bg-rodape1 {
-    background-color: #312d45;
+    background-color: var(--cor-secundaria);
 
 }
 
@@ -144,34 +157,34 @@
 
 .underline-footer{
     content: '';
-    border-top: 2px solid #ff3859;
+    border-top: 2px solid var(--cor-quartenario);
     width: 70px;
     display: block;
     margin-top: 5px;
 }
 
 .bg-card-rodape {
-    background-color: #ff3859;
+    background-color: var(--cor-quartenario);
 
 }
 
 .icon-banner-rodape {
-    color: #c42841;
+    color: var(--cor-terciaria);
 }
 
 .bg-rodape2 {
-    background-color: #4c465f;
+    background-color: var(--cor-terciaria);
 
 }
 
 a.icone-social {
-    color: #b3aec2;
+    color: var(--cor-quartenario);
 }
 
 /* Configurações Gerais */
 .underline {
     content: '';
-    border-top: 2px solid #ff3859;
+    border-top: 2px solid var(--cor-quartenario);
     width: 70px;
     display: block;
     margin-bottom: 8px;
