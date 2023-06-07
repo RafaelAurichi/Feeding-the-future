@@ -1,3 +1,7 @@
+# Sumário
+ 
+ - [Introdução](#/backend)
+ 
 # Colheita Certa
 
 Nós somos uma plataforma que conecta pequenos produtores agrícolas com consumidores finais e/ou revendedores, com o objetivo de fomentar o comércio de pequenos negócios.
@@ -14,6 +18,7 @@ Contém os arquivos necessários para rodar o projeto em react native da aplica�
  - Abra a pasta em um Ambiente de Desenvolvimento (ex: Visual Studio Code)
  - Certifique-se de que tenha o [Node.js](https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos?gclid=CjwKCAjw1YCkBhAOEiwA5aN4ASAemF6qwJklrTyYnpgA0IoEU_05CItBNrJP2DFtOd5e-DQkbcME3RoC3DEQAvD_BwE) e o [Expo](https://docs.expo.dev/get-started/installation/) instalados
  - Abra o terminal e siga os passos a seguir:
+ 
  ````
  cd (caminho até a pasta do projeto)
  ````
@@ -23,8 +28,7 @@ Contém os arquivos necessários para rodar o projeto em react native da aplica�
  ````
  expo start
  ````
-  
-  
+ 
 ## /pag-institucional
 Contém os arquivos necessários para abrir o projeto em HTML e Bootstrap da página institucional
  
