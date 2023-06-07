@@ -1,0 +1,4 @@
+docker=20.10.21
+php-apache=8.2.4
+apache=2.4.56
+mysqlnd=8.2.4
