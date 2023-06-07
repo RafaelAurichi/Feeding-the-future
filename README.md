@@ -37,7 +37,8 @@ Contém os conteiners Docker com o backend do projeto em PHP e MySQL, alimentand
  
 ### Iniciar aplicação
 - Abra a pasta em um Ambiente de Desenvolvimento (ex: Visual Studio Code)
-- Iniciando pelo Docker:
+ 
+- ### Iniciando pelo Docker:
   - Certifique-se de que tenha o [Docker](https://www.docker.com/products/docker-desktop/) instalado.
   - Abra o Docker Desktop e inicie o serviço
   - Abra o terminal e siga os passos a seguir:
