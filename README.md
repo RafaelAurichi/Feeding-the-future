@@ -17,6 +17,12 @@ contém os arquivos necessários para rodar o projeto em react native do aplica�
  ````
  cd (caminho até a pasta do projeto)
  ````
-
+ ````
+ npm install
+ ````
+ ````
+ expo start
+ ````
+ 
 - /pag-institucional
  - contém os arquivos necessários para abrir o projeto da página institucional
