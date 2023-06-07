@@ -52,6 +52,8 @@ Contém os conteiners Docker com o backend do projeto em PHP e MySQL, alimentand
     - Se cadastre e após isso efetue o login ou efetue o login com as credenciais: email: `admin@fiap` e senha: `admin` 
  
 - ### Iniciando pelo Docker:
+[Link](https://hub.docker.com/r/rafaelaurichi/php-apache) para o repositório da imagem no Docker Hub 
+ 
   - Certifique-se de que tenha o [Docker](https://www.docker.com/products/docker-desktop/) instalado.
   - Abra o Docker Desktop e inicie o serviço
   - Abra o terminal e siga os passos a seguir:
