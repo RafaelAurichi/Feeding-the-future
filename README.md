@@ -8,7 +8,7 @@ Teremos um sistema simples de gameficação onde o agricultor ganhará colecion�
  
 # Estrutura de pastas
 ## /app-react-native
-Contém os arquivos necessários para rodar o projeto em react native do aplicação mobile
+Contém os arquivos necessários para rodar o projeto em react native da aplicação mobile
  
 ### Iniciar aplicação
  - Abra a pasta em um Ambiente de Desenvolvimento (ex: Visual Studio Code)
