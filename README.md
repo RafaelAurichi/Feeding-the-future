@@ -6,3 +6,5 @@ A plataforma conta com uma IA para auxiliar os produtores na administração das
 
 Teremos um sistema simples de gameficação onde o agricultor ganhará colecionáveis e por consequência será melhor rankeado conforme seguir as oritentações da aplicação. 
 
+## Estrutura de pastas
+- app-react-native
