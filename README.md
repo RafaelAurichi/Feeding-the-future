@@ -38,6 +38,19 @@ Contém os conteiners Docker com o backend do projeto em PHP e MySQL, alimentand
 ### Iniciar aplicação
 - Abra a pasta em um Ambiente de Desenvolvimento (ex: Visual Studio Code)
  
+- ### Iniciando pelo servidor Apache:
+  - Certifique-se de que tenha o [Xampp](https://www.apachefriends.org/pt_br/download.html) instalado.
+  - Abra o Xampp Control Painel e inicie o serviço Apache e MySQL
+  - Transfira a pasta `/backend` para a pasta `C:\xampp\htdocs\`
+ 
+  - #### Criando o banco
+    - Acesse esse [link](http://localhost/phpmyadmin/) em seu navegador
+    - Acesse a opção "Importar" no menu e suba o arquivo `db.sql` que está na pasta `/src`
+   
+  - #### Acessando o sistema
+    - Acesse esse [link](http://localhost/backend/src/) em seu navegador 
+    - Se cadastre e após isso efetue o login ou efetue o login com as credenciais: email: `admin@fiap` e senha: `admin` 
+ 
 - ### Iniciando pelo Docker:
   - Certifique-se de que tenha o [Docker](https://www.docker.com/products/docker-desktop/) instalado.
   - Abra o Docker Desktop e inicie o serviço
@@ -55,6 +68,38 @@ Contém os conteiners Docker com o backend do projeto em PHP e MySQL, alimentand
     - Efetue o login no PHPMyAdmin
     - Acesse a opção "Importar" no menu e suba o arquivo `db.sql` que está na pasta `/src`
  
-#### Acessando o sistema
-- Acesse esse [link](http://localhost) em seu navegador
-- Se cadastre caso queira ou acesse o sistema com as 
+  - #### Acessando o sistema
+    - Acesse esse [link](http://localhost) em seu navegador
+    - Se cadastre e após isso efetue o login ou efetue o login com as credenciais: email: `admin@fiap` e senha: `admin` 
+ 
+### API cadastro
+Para receber um retorno de autenticação de algum usuário é necessário realizar uma requisição do tipo `POST` para essa [URL](http://localhost/backend/src/api/usuario-existente.php) (caso esteja com usando Xampp) ou para esta [URL](http://localhost/api/usuario-existente.php) (caso esteja usando Doxker) e passar as seguintes informações:
+ 
+````json
+{
+    "email": "rafael.diasaurichi@gmail.com",
+    "senha": "170302rafa"
+}
+````
+ 
+O retorno deve ser:
+ 
+````json
+{
+    "id": " ",
+    "nome": " ",
+    "email": " ",
+    "senha": " ",
+    "telefone": " ",
+    "sexo": " ",
+    "data_nasc": " ",
+    "cidade": " ",
+    "estado": " ",
+    "endereco": " "
+}
+````
+ 
+# Integrantes
+ 
+ - Rafael Dias Aurichi 96169
+ - Bruno Roberto 95757
