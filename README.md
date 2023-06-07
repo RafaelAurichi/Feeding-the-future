@@ -12,7 +12,11 @@ contém os arquivos necessários para rodar o projeto em react native do aplica�
 
 #### Iniciar aplicação
  - Abra a pasta em um Ambiente de Desenvolvimento (ex: Visual Studio Code)
- - Se certifique que tenha o [Node.js](https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos?gclid=CjwKCAjw1YCkBhAOEiwA5aN4ASAemF6qwJklrTyYnpgA0IoEU_05CItBNrJP2DFtOd5e-DQkbcME3RoC3DEQAvD_BwE) e o [Expo](https://docs.expo.dev/get-started/installation/) instalado.
+ - Se certifique que tenha o [Node.js](https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos?gclid=CjwKCAjw1YCkBhAOEiwA5aN4ASAemF6qwJklrTyYnpgA0IoEU_05CItBNrJP2DFtOd5e-DQkbcME3RoC3DEQAvD_BwE) e o [Expo](https://docs.expo.dev/get-started/installation/) instalados.
+ - Abra o terminal e siga os passos a seguir:
+ ````
+ cd (caminho até a pasta do projeto)
+ ````
 
 - /pag-institucional
  - contém os arquivos necessários para abrir o projeto da página institucional
