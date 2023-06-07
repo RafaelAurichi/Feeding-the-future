@@ -72,7 +72,7 @@ Contém os conteiners Docker com o backend do projeto em PHP e MySQL, alimentand
     - Acesse esse [link](http://localhost) em seu navegador
     - Se cadastre e após isso efetue o login ou efetue o login com as credenciais: email: `admin@fiap` e senha: `admin` 
  
-### API cadastro
+### API de autenticação
 Para receber um retorno de autenticação de algum usuário é necessário realizar uma requisição do tipo `POST` para essa [URL](http://localhost/backend/src/api/usuario-existente.php) (caso esteja com usando Xampp) ou para esta [URL](http://localhost/api/usuario-existente.php) (caso esteja usando Doxker) e passar as seguintes informações:
  
 ````json
