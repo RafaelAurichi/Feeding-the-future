@@ -29,7 +29,7 @@ Contém os arquivos necessários para rodar o projeto em react native do aplica�
 Contém os arquivos necessários para abrir o projeto em HTML e Bootstrap da página institucional
  
 ### Iniciar aplicação
-- Abra o arquivo 'index.html' no seu navegador
+- Abra o arquivo `index.html` no seu navegador
  
  
 ## /backend
@@ -37,12 +37,21 @@ Contém os conteiners Docker com o backend do projeto em PHP e MySQL, alimentand
  
 ### Iniciar aplicação
 - Abra a pasta em um Ambiente de Desenvolvimento (ex: Visual Studio Code)
-- Certifique-se de que tenha o [Docker](https://www.docker.com/products/docker-desktop/) instalado.
-- Abra o terminal e siga os passos a seguir:
+- Iniciando pelo Docker:
+  - Certifique-se de que tenha o [Docker](https://www.docker.com/products/docker-desktop/) instalado.
+  - Abra o Docker Desktop e inicie o serviço
+  - Abra o terminal e siga os passos a seguir:
 ````
 cd (caminho até a pasta do projeto)
 ````
 ````
 docker-compose up
 ````
--- kk
+  - #### Criando o banco
+   - Acesse esse [link](http://localhost:8080) em seu navegador
+   - Efetue o login no PHPMyAdmin
+   - Acesse a opção "Importar" no menu e suba o arquivo `db.sql` que está na pasta `/src`
+ 
+#### Acessando o sistema
+- Acesse esse [link](http://localhost) em seu navegador
+- Se cadastre caso queira ou acesse o sistema com as 
