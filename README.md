@@ -41,12 +41,12 @@ Contém os conteiners Docker com o backend do projeto em PHP e MySQL, alimentand
   - Certifique-se de que tenha o [Docker](https://www.docker.com/products/docker-desktop/) instalado.
   - Abra o Docker Desktop e inicie o serviço
   - Abra o terminal e siga os passos a seguir:
-````
-cd (caminho até a pasta do projeto)
-````
-````
-docker-compose up
-````
+  ````
+  cd (caminho até a pasta do projeto)
+  ````
+  ````
+  docker-compose up
+  ````
   - #### Criando o banco
    - Acesse esse [link](http://localhost:8080) em seu navegador
    - Efetue o login no PHPMyAdmin
