@@ -8,11 +8,11 @@ Teremos um sistema simples de gameficação onde o agricultor ganhará colecion�
 
 ## Estrutura de pastas
 ### /app-react-native
-contém os arquivos necessários para rodar o projeto em react native do aplicação mobile
-
+Contém os arquivos necessários para rodar o projeto em react native do aplicação mobile
+ 
 #### Iniciar aplicação
  - Abra a pasta em um Ambiente de Desenvolvimento (ex: Visual Studio Code)
- - Se certifique que tenha o [Node.js](https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos?gclid=CjwKCAjw1YCkBhAOEiwA5aN4ASAemF6qwJklrTyYnpgA0IoEU_05CItBNrJP2DFtOd5e-DQkbcME3RoC3DEQAvD_BwE) e o [Expo](https://docs.expo.dev/get-started/installation/) instalados.
+ - Certifique-se de que tenha o [Node.js](https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos?gclid=CjwKCAjw1YCkBhAOEiwA5aN4ASAemF6qwJklrTyYnpgA0IoEU_05CItBNrJP2DFtOd5e-DQkbcME3RoC3DEQAvD_BwE) e o [Expo](https://docs.expo.dev/get-started/installation/) instalados
  - Abra o terminal e siga os passos a seguir:
  ````
  cd (caminho até a pasta do projeto)
@@ -23,6 +23,24 @@ contém os arquivos necessários para rodar o projeto em react native do aplica�
  ````
  expo start
  ````
+  
+### /pag-institucional
+Contém os arquivos necessários para abrir o projeto em HTML e Bootstrap da página institucional
  
-- /pag-institucional
- - contém os arquivos necessários para abrir o projeto da página institucional
+#### Iniciar aplicação
+- Abra o arquivo 'index.html' no seu navegador
+ 
+### /backend
+Contém os conteiners Docker com o backend do projeto em PHP e MySQL, alimentando uma API REST.
+ 
+#### Iniciar aplicação
+- Abra a pasta em um Ambiente de Desenvolvimento (ex: Visual Studio Code)
+- Certifique-se de que tenha o [Docker](https://www.docker.com/products/docker-desktop/) instalado.
+- Abra o terminal e siga os passos a seguir:
+````
+cd (caminho até a pasta do projeto)
+````
+````
+docker-compose up
+````
+ - kk
